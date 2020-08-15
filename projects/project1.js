@@ -1,4 +1,5 @@
-// A tutorial I'm taking from w3schools! //
+/* A tutorial I'm taking from w3schools!*/
+
 var http = require('http');
 var dt = require('./myfirstmodule');
 
