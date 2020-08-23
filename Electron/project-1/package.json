@@ -1,0 +1,22 @@
+{
+    "name": "project-1",
+    "version": "0.1.0",
+    "description": "My first Electron project.",
+    "main": "project1.js",
+    "publishConfig": { "registry": "https://npm.pkg.github.com/SuperHarmony910/project-1" },
+    "scripts": {
+        "test": "npm init"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/SuperHarmony910/node-js-electron.git"
+    },
+    "keywords": [
+        "My",
+        "first",
+        "Electron",
+        "project."
+    ],
+    "author": "SuperHarmony910",
+    "license": "MIT"
+}
