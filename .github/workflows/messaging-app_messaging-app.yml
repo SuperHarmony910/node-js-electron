@@ -5,7 +5,13 @@ on:
   push:
     branches:
       - messaging-app
+defaults:
+  run:
+    working-directory: projects/messaging-app
 
+jobs:
+  build-and-deploy:
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@master
     - name: Set up Node.js version
