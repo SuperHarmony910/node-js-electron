@@ -12,7 +12,6 @@ defaults:
   run:
     working-directory: projects/messaging-app
         
-
 jobs:
   build-and-deploy:
     runs-on: windows-latest
