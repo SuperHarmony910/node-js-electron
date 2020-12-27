@@ -7,3 +7,4 @@ Download Node.js at <https://nodejs.org/en/download/> today! Compatible with Doc
 To ensure that your Node.js file will run via regular you have to go to the Windows menu, and search up **"Environment Variables"**.
 Click on **"Edit the system environment variables"**, then go to the bottom right, click on **"Environment variables"** and then click "New" in the **bottom-right!**
 Then write *"PATH"* as the 'Variable name', and once you have downloaded Node.js, type "C:\Program Files\nodejs" in 'Variable value'. Then click 'Save' and close the window.
+
