@@ -1,6 +1,6 @@
 {
     "name": "messaging-app",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "description": "SuperHarmony910's messaging app made from socket.io!",
     "main": "script.js",
     "dependencies": {
@@ -14,7 +14,6 @@
         "nodemon": "^1.9.2"
     },
     "scripts": {
-        "test": "echo 'test'",
         "start": "nodemon server.js"
     },
     "repository": {
