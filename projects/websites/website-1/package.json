@@ -1,0 +1,30 @@
+{
+  "name": "website-1",
+  "version": "0.1.0",
+  "description": "A website I am making.",
+  "main": "script.js",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperHarmony910/node-js-electron.git"
+  },
+  "keywords": [
+    "website",
+    "time",
+    "functionality",
+    "npm-packages"
+  ],
+  "author": "SuperHarmony910",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperHarmony910/node-js-electron/issues"
+  },
+  "homepage": "https://github.com/SuperHarmony910/node-js-electron#readme"
+}
