@@ -3,7 +3,11 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 bot.commands = new Discord.Collection();
 const botCommands = require('./commands');
-const key = '!';
+const readline = require("readline");
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
 Object.keys(botCommands).map(key => {
   bot.commands.set('!' + botCommands[key].name, botCommands[key]);
@@ -18,7 +22,6 @@ bot.on('ready', () => {
 });
 
 bot.on('message', msg => {
-  const PREFIX = '!';
   const args = msg.content.split(/ +/);
   const command = args.shift().toLowerCase();
   console.info(`Called command: ${command}`);
@@ -32,3 +35,7 @@ bot.on('message', msg => {
     msg.reply('There was an error trying to execute that command!');
   }
 });
+
+setTimeout((function() {
+    return process.exit(0);
+}), 1800000);
