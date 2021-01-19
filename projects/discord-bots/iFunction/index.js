@@ -37,5 +37,6 @@ bot.on('message', msg => {
 });
 
 setTimeout((function() {
+	console.log('');
     return process.exit(0);
-}), 1800000);
+}), 600000); // Currently set to 10 minutes. For 30 minutes, replace the value with `1800000`, for 10 minutes, replace the value with `600000`, and for 1 hour, replace the value with `3600000`
