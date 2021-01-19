@@ -1,0 +1,28 @@
+{
+  "name": "discord-bots",
+  "version": "0.1.0",
+  "description": "My first Node.js Discord bot!",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperHarmony910/node-js-electron.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Discord"
+  ],
+  "author": "SuperHarmony910",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperHarmony910/node-js-electron/issues"
+  },
+  "homepage": "https://github.com/SuperHarmony910/node-js-electron#readme"
+}
