@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: cd projects/discord-bots/iFunction
-    - run: echo "${{ secrets.BOT_ENV}}" > .env
+    - run: echo "${{ secrets.BOT_ENV}}" > projects/discord-bots/iFunction/.env
     - run: npm ci --prefix projects/discord-bots/iFunction
     - run: npm test --prefix projects/discord-bots/iFunction
     - run: npm run build --if-present --prefix projects/discord-bots/iFunction
