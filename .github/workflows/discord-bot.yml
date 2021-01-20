@@ -30,4 +30,4 @@ jobs:
     - run: npm ci --prefix projects/discord-bots/iFunction
     - run: npm test --prefix projects/discord-bots/iFunction
     - run: npm run build --if-present --prefix projects/discord-bots/iFunction
-    - run: del projects/discord-bot/iFunction/.env
+    - run: del projects/discord-bots/iFunction/.env
