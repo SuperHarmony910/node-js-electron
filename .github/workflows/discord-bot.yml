@@ -6,8 +6,6 @@ name: Run Discord bot with Node.js
 on:
   push:
     branches: [ master, discord-bots ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
