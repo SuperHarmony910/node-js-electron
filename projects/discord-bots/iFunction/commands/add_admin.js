@@ -1,3 +1,5 @@
+// Work in progress
+
 module.exports = {
   name: 'add_admin',
   description: 'shh!',
