@@ -7,7 +7,7 @@ on:
   push:
     branches: [ master, discord-bots ]
   pull_request:
-    branches: [ discord-bots ]
+    branches: [ master ]
 
 jobs:
   build:
