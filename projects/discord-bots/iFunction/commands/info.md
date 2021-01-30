@@ -5,7 +5,7 @@ Syntax:
 module.exports = {
   name: '<name>',
   description: '<description>',
-  execute(msg, args) {
+  execute(message, args) {
     <commands>
   },
 };
