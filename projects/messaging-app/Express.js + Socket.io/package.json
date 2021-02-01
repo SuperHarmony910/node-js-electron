@@ -1,0 +1,23 @@
+{
+    "name": "messaging-app",
+    "version": "0.0.1",
+    "description": "A messaging app I'm making using Express, Mongoose and Socket.io!",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com/SuperHarmony910/node-js-electron"
+    },
+    "keywords": [
+        "Node.js",
+        "Socket.io",
+        "Express",
+        "Mongoose",
+        "MongoDB",
+        "messaging-app"
+    ],
+    "author": "SuperHarmony910",
+    "license": "ISC"
+}
