@@ -4,11 +4,12 @@
     "description": "SuperHarmony910's messaging app made from socket.io!",
     "main": "script.js",
     "dependencies": {
+        "date-fns": "^2.19.0",
         "dotenv": "^8.2.0",
         "express": "^4.15.2",
         "moment": "^2.29.1",
         "npm": "^6.14.10",
-        "socket.io": "^3.0.4"
+        "socket.io": "^3.1.2"
     },
     "devDependencies": {
         "nodemon": "^1.9.2"

@@ -5,8 +5,8 @@ const io = require('socket.io')(4000, {
 });
 
 io.on('connection', socket => {
-    socket.emit('chat-message', "Hello, World!")
+    socket.emit('chat-message', "Hello, World!");
     socket.on('send-chat-message', message => {
-        console.log(message)
+        console.log(message);
     })
 })
